@@ -49,7 +49,7 @@ BOT_TOKEN = environ['BOT_TOKEN']
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/cb57b6561bdb5b4c03eb6.mp4 https://te.legra.ph/file/2402c9db959ca76f5fed9.mp4 https://telegra.ph/file/2451d574ac17276c3a0e6.mp4')).split()
-NOR_IMG = environ.get('NOR_IMG', "https://te.legra.ph/file/4e07ea0af542b38215778.jpg")
+NOR_IMG = environ.get('NOR_IMG', "https://telegra.ph/file/0ad02afebbbe8fe1dbba9.jpg")
 SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/0ad02afebbbe8fe1dbba9.jpg")
 
 # Welcome area
@@ -89,7 +89,7 @@ PORT = os.environ.get("PORT", "8080")
 MAX_BTN = int(environ.get('MAX_BTN', "7"))
 S_GROUP = environ.get('S_GROUP',"https://t.me/tvseriezzz_group")
 MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/tvseriezzz_update")
-FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/tvseriezzz_update")
+FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+31mRTH_KeWdkNzRl")
 MSG_ALRT = environ.get('MSG_ALRT', '𝑇ℎ𝑎𝑛𝑘𝑠 𝑇𝑜 ♠️ 𝑨𝒍𝒍 𝑰𝒏 𝑶𝒏𝒆')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
